@@ -1,7 +1,7 @@
 // This file runs in the background, separately from your webpage.
 // Its job: save copies of your site's files so the app still works with no internet.
 
-const CACHE_NAME = 'upcat-reviewer-v4';
+const CACHE_NAME = 'upcat-reviewer-v6';
 const FILES_TO_CACHE = [
   './',
   './index.html',
@@ -46,4 +46,3 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
-
