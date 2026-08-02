@@ -122,31 +122,36 @@ function showSection(sectionId, btn) {
   // ===== SURPRISE / MOTIVATIONAL MESSAGES =====
   // Edit these arrays with your own inside jokes / personal messages any time —
   // just keep the quotes and commas in place.
-  var MOTIVATIONAL_QUOTES = [
-    "One topic at a time. You've got this. 💪",
-    "Future Iskolar ng Bayan loading... ⏳",
-    "Small steps today, UP tomorrow. 🎓",
-    "You didn't come this far to only come this far.",
-    "Reviewing > worrying. Keep going!",
-    "Your only competition is who you were yesterday.",
-    "Take a breather if you need it — then get back to it. 🌤️",
-    "Every checkbox you tick is a future exam question you'll ace."
+  var MOTIVATIONAL_QUOTES = [      
+    "I can do all things through Christ who strengthens me." — Philippians 4:13",
+    "For I know the plans I have for you, plans to prosper you and not to harm you." — Jeremiah 29:11",
+    "Trust in the Lord with all your heart, and lean not on your own understanding." — Proverbs 3:5",
+    "Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you." — Joshua 1:9",
+    "For God has not given us a spirit of fear, but of power, love, and a sound mind." — 2 Timothy 1:7",
+    "Do not be anxious about anything, but in every situation, by prayer and petition, present your requests to God." — Philippians 4:6",
+    "The Lord is my strength and my shield; my heart trusts in him, and he helps me." — Psalm 28:7",
+    "Whatever you do, work at it with all your heart, as working for the Lord." — Colossians 3:23",
+    "Those who hope in the Lord will renew their strength... they will run and not grow weary." — Isaiah 40:31"
+    "God is within her, she will not fall." — Psalm 46:5
   ];
 
   var SURPRISE_MESSAGES = [
-    "Nice! One down. 🎉",
-    "Look at you go! 🔥",
-    "That's how it's done!",
-    "Certified topic-crusher. ✅",
-    "Keep that momentum!",
-    "Your brain just got a little bigger. 🧠",
-    "UP won't know what hit it."
+    "Progress, not perfection.",
+    "You don't have to be great to start, but you have to start to be great.",
+    "Discipline today, freedom tomorrow.",
+    "Every review session is a deposit into future-you's confidence.",
+    "Doubt kills more dreams than failure ever will.",
+    "Consistency beats intensity.",
+    "You're not behind. You're exactly where you need to be to start.",
+    "The exam doesn't decide your worth — it just measures your prep.",
+    "Rest is part of the plan, not a break from it.",
+    "Trust the process. Then keep showing up for it."
   ];
 
   var MILESTONE_MESSAGES = [
-    "SECTION COMPLETE! 🎉🎉 You're unstoppable.",
-    "100%?! Go treat yourself, you earned it. 🏆",
-    "Section cleared. Iskolar ng Bayan energy only. 🌟"
+    "SECTION COMPLETE! What a nice!😍",
+    "100%?! Na para bang...😱",
+    "Supercalifragilisticexpialidocious 🙌"
   ];
 
   function pickRandom(arr) {
