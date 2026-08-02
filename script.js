@@ -122,17 +122,17 @@ function showSection(sectionId, btn) {
   // ===== SURPRISE / MOTIVATIONAL MESSAGES =====
   // Edit these arrays with your own inside jokes / personal messages any time —
   // just keep the quotes and commas in place.
-  var MOTIVATIONAL_QUOTES = [      
-    "I can do all things through Christ who strengthens me." — Philippians 4:13",
-    "For I know the plans I have for you, plans to prosper you and not to harm you." — Jeremiah 29:11",
-    "Trust in the Lord with all your heart, and lean not on your own understanding." — Proverbs 3:5",
-    "Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you." — Joshua 1:9",
-    "For God has not given us a spirit of fear, but of power, love, and a sound mind." — 2 Timothy 1:7",
-    "Do not be anxious about anything, but in every situation, by prayer and petition, present your requests to God." — Philippians 4:6",
-    "The Lord is my strength and my shield; my heart trusts in him, and he helps me." — Psalm 28:7",
-    "Whatever you do, work at it with all your heart, as working for the Lord." — Colossians 3:23",
-    "Those who hope in the Lord will renew their strength... they will run and not grow weary." — Isaiah 40:31"
-    "God is within her, she will not fall." — Psalm 46:5
+  var MOTIVATIONAL_QUOTES = [
+    "\u201cI can do all things through Christ who strengthens me.\u201d — Philippians 4:13",
+    "\u201cFor I know the plans I have for you, plans to prosper you and not to harm you.\u201d — Jeremiah 29:11",
+    "\u201cTrust in the Lord with all your heart, and lean not on your own understanding.\u201d — Proverbs 3:5",
+    "\u201cBe strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you.\u201d — Joshua 1:9",
+    "\u201cFor God has not given us a spirit of fear, but of power, love, and a sound mind.\u201d — 2 Timothy 1:7",
+    "\u201cDo not be anxious about anything, but in every situation, by prayer and petition, present your requests to God.\u201d — Philippians 4:6",
+    "\u201cThe Lord is my strength and my shield; my heart trusts in him, and he helps me.\u201d — Psalm 28:7",
+    "\u201cWhatever you do, work at it with all your heart, as working for the Lord.\u201d — Colossians 3:23",
+    "\u201cThose who hope in the Lord will renew their strength... they will run and not grow weary.\u201d — Isaiah 40:31",
+    "\u201cGod is within her, she will not fall.\u201d — Psalm 46:5"
   ];
 
   var SURPRISE_MESSAGES = [
@@ -149,9 +149,9 @@ function showSection(sectionId, btn) {
   ];
 
   var MILESTONE_MESSAGES = [
-    "SECTION COMPLETE! What a nice!😍",
-    "100%?! Na para bang...😱",
-    "Supercalifragilisticexpialidocious 🙌"
+    "NICEEEEE! 🎉",
+    "100%?! Na para bang...😉",
+    "Supercalifragilisticexpialidocious🙌"
   ];
 
   function pickRandom(arr) {
